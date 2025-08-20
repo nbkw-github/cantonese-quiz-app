@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "category": "挨拶",
+    "jp": "こんにちは",
+    "cn": "你好",
+    "jyutping": "nei5 hou2",
+    "tags": ["基本挨拶"]
+  },
+  {
+    "id": 2,
+    "category": "挨拶",
+    "jp": "おはようございます",
+    "cn": "早晨",
+    "jyutping": "zou2 san4",
+    "tags": ["基本挨拶", "時間帯"]
+  },
+  {
+    "id": 3,
+    "category": "挨拶",
+    "jp": "こんばんは",
+    "cn": "晚安",
+    "jyutping": "maan5 on1",
+    "tags": ["基本挨拶", "時間帯"]
+  },
+  {
+    "id": 4,
+    "category": "挨拶",
+    "jp": "さようなら",
+    "cn": "再見",
+    "jyutping": "zoi3 gin3",
+    "tags": ["別れ"]
+  },
+  {
+    "id": 5,
+    "category": "挨拶",
+    "jp": "ありがとう（サービス）",
+    "cn": "唔該",
+    "jyutping": "m4 goi1",
+    "tags": ["感謝・謝罪"]
+  },
+  {
+    "id": 6,
+    "category": "挨拶",
+    "jp": "ありがとう（贈り物）",
+    "cn": "多謝",
+    "jyutping": "do1 ze6",
+    "tags": ["感謝・謝罪"]
+  },
+  {
+    "id": 7,
+    "category": "挨拶",
+    "jp": "すみません",
+    "cn": "唔好意思",
+    "jyutping": "m4 hou2 ji3 si3",
+    "tags": ["感謝・謝罪"]
+  },
+  {
+    "id": 8,
+    "category": "挨拶",
+    "jp": "ごめんなさい",
+    "cn": "對唔住",
+    "jyutping": "deoi3 m4 zyu6",
+    "tags": ["感謝・謝罪"]
+  },
+  {
+    "id": 9,
+    "category": "挨拶",
+    "jp": "どういたしまして",
+    "cn": "唔使客氣",
+    "jyutping": "m4 sai2 haak3 hei3",
+    "tags": ["返答"]
+  },
+  {
+    "id": 10,
+    "category": "挨拶",
+    "jp": "お元気ですか？",
+    "cn": "你好嗎",
+    "jyutping": "nei5 hou2 maa3",
+    "tags": ["状態質問"]
+  },
+  {
+    "id": 11,
+    "category": "挨拶",
+    "jp": "元気です",
+    "cn": "我好好",
+    "jyutping": "ngo5 hou2 hou2",
+    "tags": ["状態返答"]
+  },
+  {
+    "id": 12,
+    "category": "挨拶",
+    "jp": "バイバイ",
+    "cn": "拜拜",
+    "jyutping": "baai1 baai3",
+    "tags": ["別れ"]
+  },
+  {
+    "id": 13,
+    "category": "挨拶",
+    "jp": "お名前は何ですか？",
+    "cn": "你叫咩名",
+    "jyutping": "nei5 giu3 me1 meng2",
+    "tags": ["自己紹介"]
+  },
+  {
+    "id": 14,
+    "category": "挨拶",
+    "jp": "私の名前は〜です",
+    "cn": "我叫",
+    "jyutping": "ngo5 giu3",
+    "tags": ["自己紹介"]
+  },
+  {
+    "id": 15,
+    "category": "挨拶",
+    "jp": "お久しぶりです",
+    "cn": "好耐冇見",
+    "jyutping": "hou2 noi6 mou5 gin3",
+    "tags": ["再会"]
+  },
+  {
+    "id": 16,
+    "category": "挨拶",
+    "jp": "また明日",
+    "cn": "聽日見",
+    "jyutping": "ting1 jat6 gin3",
+    "tags": ["別れ", "時間帯"]
+  },
+  {
+    "id": 17,
+    "category": "挨拶",
+    "jp": "おやすみなさい",
+    "cn": "早抖",
+    "jyutping": "zou2 tau2",
+    "tags": ["別れ", "時間帯"]
+  },
+  {
+    "id": 18,
+    "category": "挨拶",
+    "jp": "どうぞ",
+    "cn": "請",
+    "jyutping": "cing2",
+    "tags": ["丁寧表現"]
+  },
+  {
+    "id": 19,
+    "category": "挨拶",
+    "jp": "問題ないです",
+    "cn": "冇問題",
+    "jyutping": "mou5 man6 tai4",
+    "tags": ["返答"]
+  },
+  {
+    "id": 20,
+    "category": "挨拶",
+    "jp": "はい／そうです",
+    "cn": "係",
+    "jyutping": "hai6",
+    "tags": ["返答"]
+  },
+  {
+    "id": 21,
+    "category": "挨拶",
+    "jp": "いいえ／違います",
+    "cn": "唔係",
+    "jyutping": "m4 hai6",
+    "tags": ["返答"]
+  },
+  {
+    "id": 22,
+    "category": "挨拶",
+    "jp": "わかりません",
+    "cn": "我唔明",
+    "jyutping": "ngo5 m4 ming4",
+    "tags": ["理解"]
+  },
+  {
+    "id": 23,
+    "category": "挨拶",
+    "jp": "わかります",
+    "cn": "我明白",
+    "jyutping": "ngo5 ming4 baak6",
+    "tags": ["理解"]
+  },
+  {
+    "id": 24,
+    "category": "挨拶",
+    "jp": "（知識として）知りません",
+    "cn": "我唔知",
+    "jyutping": "ngo5 m4 zi1",
+    "tags": ["理解"]
+  },
+  {
+    "id": 25,
+    "category": "挨拶",
+    "jp": "（スキルとして）できません",
+    "cn": "我唔識",
+    "jyutping": "ngo5 m4 sik1",
+    "tags": ["能力"]
+  },
+  {
+    "id": 26,
+    "category": "挨拶",
+    "jp": "もう一度言ってください",
+    "cn": "請你再講一次",
+    "jyutping": "cing2 nei5 zoi3 gong2 jat1 ci3",
+    "tags": ["会話ヘルプ"]
+  },
+  {
+    "id": 27,
+    "category": "挨拶",
+    "jp": "お手伝いしましょうか？",
+    "cn": "使唔使幫手",
+    "jyutping": "sai2 m4 sai2 bong1 sau2",
+    "tags": ["申し出"]
+  },
+  {
+    "id": 28,
+    "category": "挨拶",
+    "jp": "お先に失礼します",
+    "cn": "我走先喇",
+    "jyutping": "ngo5 zau2 sin1 laa3",
+    "tags": ["別れ"]
+  },
+  {
+    "id": 29,
+    "category": "挨拶",
+    "jp": "お疲れ様です",
+    "cn": "辛苦晒",
+    "jyutping": "san1 fu2 saai3",
+    "tags": ["感謝・謝罪"]
+  },
+  {
+    "id": 30,
+    "category": "挨拶",
+    "jp": "どうぞお座りください",
+    "cn": "請坐",
+    "jyutping": "cing2 co5",
+    "tags": ["丁寧表現"]
+  },
+  {
+    "id": 31,
+    "category": "観光",
+    "jp": "いくらですか？",
+    "cn": "幾多錢",
+    "jyutping": "gei2 do1 cin2",
+    "tags": ["買い物", "質問"]
+  },
+  {
+    "id": 32,
+    "category": "観光",
+    "jp": "高すぎます",
+    "cn": "太貴喇",
+    "jyutping": "taai3 gwai3 laa3",
+    "tags": ["買い物", "評価"]
+  },
+  {
+    "id": 33,
+    "category": "観光",
+    "jp": "まけてもらえますか？",
+    "cn": "可唔可以平啲",
+    "jyutping": "ho2 m4 ho2 ji5 peng4 di1",
+    "tags": ["買い物", "交渉"]
+  },
+  {
+    "id": 34,
+    "category": "観光",
+    "jp": "トイレはどこですか？",
+    "cn": "廁所喺邊度",
+    "jyutping": "ci3 so2 hai2 bin1 dou6",
+    "tags": ["場所", "質問"]
+  },
+  {
+    "id": 35,
+    "category": "観光",
+    "jp": "地下鉄 (MTR)",
+    "cn": "地鐵",
+    "jyutping": "dei6 tit3",
+    "tags": ["交通"]
+  },
+  {
+    "id": 36,
+    "category": "観光",
+    "jp": "バス",
+    "cn": "巴士",
+    "jyutping": "baa1 si2",
+    "tags": ["交通"]
+  },
+  {
+    "id": 37,
+    "category": "観光",
+    "jp": "タクシー",
+    "cn": "的士",
+    "jyutping": "dik1 si2",
+    "tags": ["交通"]
+  },
+  {
+    "id": 38,
+    "category": "観光",
+    "jp": "空港",
+    "cn": "機場",
+    "jyutping": "gei1 coeng4",
+    "tags": ["場所", "交通"]
+  },
+  {
+    "id": 39,
+    "category": "観光",
+    "jp": "ホテル",
+    "cn": "酒店",
+    "jyutping": "zau2 dim3",
+    "tags": ["場所"]
+  },
+  {
+    "id": 40,
+    "category": "観光",
+    "jp": "予約",
+    "cn": "預訂",
+    "jyutping": "jyu6 deng6",
+    "tags": ["行動"]
+  },
+  {
+    "id": 41,
+    "category": "観光",
+    "jp": "入口",
+    "cn": "入口",
+    "jyutping": "jap6 hau2",
+    "tags": ["場所", "案内"]
+  },
+  {
+    "id": 42,
+    "category": "観光",
+    "jp": "出口",
+    "cn": "出口",
+    "jyutping": "ceot1 hau2",
+    "tags": ["場所", "案内"]
+  },
+  {
+    "id": 43,
+    "category": "観光",
+    "jp": "地図",
+    "cn": "地圖",
+    "jyutping": "dei6 tou4",
+    "tags": ["物"]
+  },
+  {
+    "id": 44,
+    "category": "観光",
+    "jp": "写真を撮ってください",
+    "cn": "唔該幫我影張相",
+    "jyutping": "m4 goi1 bong1 ngo5 jing2 zoeng1 soeng2",
+    "tags": ["会話", "依頼"]
+  },
+  {
+    "id": 45,
+    "category": "観光",
+    "jp": "現金",
+    "cn": "現金",
+    "jyutping": "jin6 gam1",
+    "tags": ["買い物", "支払い"]
+  },
+  {
+    "id": 46,
+    "category": "観光",
+    "jp": "クレジットカード",
+    "cn": "信用卡",
+    "jyutping": "seon3 jung6 kaat1",
+    "tags": ["買い物", "支払い"]
+  },
+  {
+    "id": 47,
+    "category": "観光",
+    "jp": "領収書",
+    "cn": "收據",
+    "jyutping": "sau1 geoi3",
+    "tags": ["買い物", "物"]
+  },
+  {
+    "id": 48,
+    "category": "観光",
+    "jp": "Wi-Fiのパスワードは何ですか？",
+    "cn": "Wifi密碼係咩",
+    "jyutping": "wai1 fai1 mat6 maa5 hai6 me1",
+    "tags": ["会話", "質問"]
+  },
+  {
+    "id": 49,
+    "category": "観光",
+    "jp": "まっすぐ行く",
+    "cn": "直行",
+    "jyutping": "zik6 haang4",
+    "tags": ["方向"]
+  },
+  {
+    "id": 50,
+    "category": "観光",
+    "jp": "左に曲がる",
+    "cn": "轉左",
+    "jyutping": "zyun3 zo2",
+    "tags": ["方向"]
+  },
+  {
+    "id": 51,
+    "category": "食事",
+    "jp": "お会計",
+    "cn": "埋單",
+    "jyutping": "maai4 daan1",
+    "tags": ["レストラン用語"]
+  },
+  {
+    "id": 52,
+    "category": "食事",
+    "jp": "注文",
+    "cn": "落單",
+    "jyutping": "lok6 daan1",
+    "tags": ["レストラン用語"]
+  },
+  {
+    "id": 53,
+    "category": "食事",
+    "jp": "メニュー",
+    "cn": "餐牌",
+    "jyutping": "caan1 paai4",
+    "tags": ["レストラン用語", "物"]
+  },
+  {
+    "id": 54,
+    "category": "食事",
+    "jp": "美味しい",
+    "cn": "好食",
+    "jyutping": "hou2 sik6",
+    "tags": ["味覚", "評価"]
+  },
+  {
+    "id": 55,
+    "category": "食事",
+    "jp": "まずい",
+    "cn": "唔好食",
+    "jyutping": "m4 hou2 sik6",
+    "tags": ["味覚", "評価"]
+  },
+  {
+    "id": 56,
+    "category": "食事",
+    "jp": "持ち帰り",
+    "cn": "外賣",
+    "jyutping": "ngoi6 maai6",
+    "tags": ["レストラン用語"]
+  },
+  {
+    "id": 57,
+    "category": "食事",
+    "jp": "店内飲食",
+    "cn": "堂食",
+    "jyutping": "tong4 sik6",
+    "tags": ["レストラン用語"]
+  },
+  {
+    "id": 58,
+    "category": "食事",
+    "jp": "氷",
+    "cn": "冰",
+    "jyutping": "bing1",
+    "tags": ["飲み物", "食材"]
+  },
+  {
+    "id": 59,
+    "category": "食事",
+    "jp": "氷なし",
+    "cn": "走冰",
+    "jyutping": "zau2 bing1",
+    "tags": ["飲み物", "リクエスト"]
+  },
+  {
+    "id": 60,
+    "category": "食事",
+    "jp": "甘さ控えめ",
+    "cn": "少甜",
+    "jyutping": "siu2 tim4",
+    "tags": ["飲み物", "リクエスト", "味覚"]
+  },
+  {
+    "id": 61,
+    "category": "食事",
+    "jp": "お腹がすいた",
+    "cn": "肚餓",
+    "jyutping": "tou5 ngo6",
+    "tags": ["状態", "感情"]
+  },
+  {
+    "id": 62,
+    "category": "食事",
+    "jp": "お腹がいっぱいです",
+    "cn": "好飽",
+    "jyutping": "hou2 baau2",
+    "tags": ["状態", "感情"]
+  },
+  {
+    "id": 63,
+    "category": "食事",
+    "jp": "喉が渇いた",
+    "cn": "口渴",
+    "jyutping": "hau2 hot3",
+    "tags": ["状態", "感情"]
+  },
+  {
+    "id": 64,
+    "category": "食事",
+    "jp": "辛い",
+    "cn": "辣",
+    "jyutping": "laat6",
+    "tags": ["味覚"]
+  },
+  {
+    "id": 65,
+    "category": "食事",
+    "jp": "甘い",
+    "cn": "甜",
+    "jyutping": "tim4",
+    "tags": ["味覚"]
+  },
+  {
+    "id": 66,
+    "category": "食事",
+    "jp": "酸っぱい",
+    "cn": "酸",
+    "jyutping": "syun1",
+    "tags": ["味覚"]
+  },
+  {
+    "id": 67,
+    "category": "食事",
+    "jp": "しょっぱい",
+    "cn": "鹹",
+    "jyutping": "haam4",
+    "tags": ["味覚"]
+  },
+  {
+    "id": 68,
+    "category": "食事",
+    "jp": "苦い",
+    "cn": "苦",
+    "jyutping": "fu2",
+    "tags": ["味覚"]
+  },
+  {
+    "id": 69,
+    "category": "食事",
+    "jp": "牛肉",
+    "cn": "牛肉",
+    "jyutping": "ngau4 juk6",
+    "tags": ["食材", "肉"]
+  },
+  {
+    "id": 70,
+    "category": "食事",
+    "jp": "豚肉",
+    "cn": "豬肉",
+    "jyutping": "zyu1 juk6",
+    "tags": ["食材", "肉"]
+  },
+  {
+    "id": 71,
+    "category": "食事",
+    "jp": "鶏肉",
+    "cn": "雞肉",
+    "jyutping": "gai1 juk6",
+    "tags": ["食材", "肉"]
+  },
+  {
+    "id": 72,
+    "category": "食事",
+    "jp": "ご飯（米）",
+    "cn": "飯",
+    "jyutping": "faan6",
+    "tags": ["食材", "主食"]
+  },
+  {
+    "id": 73,
+    "category": "食事",
+    "jp": "麺",
+    "cn": "麵",
+    "jyutping": "min6",
+    "tags": ["食材", "主食"]
+  },
+  {
+    "id": 74,
+    "category": "食事",
+    "jp": "野菜",
+    "cn": "菜",
+    "jyutping": "coi3",
+    "tags": ["食材"]
+  },
+  {
+    "id": 75,
+    "category": "食事",
+    "jp": "果物",
+    "cn": "生果",
+    "jyutping": "saang1 gwo2",
+    "tags": ["食材"]
+  },
+  {
+    "id": 76,
+    "category": "日常",
+    "jp": "今日",
+    "cn": "今日",
+    "jyutping": "gam1 jat6",
+    "tags": ["時間"]
+  },
+  {
+    "id": 77,
+    "category": "日常",
+    "jp": "明日",
+    "cn": "聽日",
+    "jyutping": "ting1 jat6",
+    "tags": ["時間"]
+  },
+  {
+    "id": 78,
+    "category": "日常",
+    "jp": "昨日",
+    "cn": "琴日",
+    "jyutping": "kam4 jat6",
+    "tags": ["時間"]
+  },
+  {
+    "id": 79,
+    "category": "日常",
+    "jp": "今何時ですか？",
+    "cn": "而家幾點",
+    "jyutping": "ji4 gaa1 gei2 dim2",
+    "tags": ["時間", "質問"]
+  },
+  {
+    "id": 80,
+    "category": "日常",
+    "jp": "携帯電話",
+    "cn": "手機",
+    "jyutping": "sau2 gei1",
+    "tags": ["物", "電子機器"]
+  },
+  {
+    "id": 81,
+    "category": "日常",
+    "jp": "お金",
+    "cn": "錢",
+    "jyutping": "cin2",
+    "tags": ["物"]
+  },
+  {
+    "id": 82,
+    "category": "日常",
+    "jp": "家",
+    "cn": "屋企",
+    "jyutping": "uk1 kei2",
+    "tags": ["場所"]
+  },
+  {
+    "id": 83,
+    "category": "日常",
+    "jp": "会社",
+    "cn": "公司",
+    "jyutping": "gung1 si1",
+    "tags": ["場所"]
+  },
+  {
+    "id": 84,
+    "category": "日常",
+    "jp": "学校",
+    "cn": "學校",
+    "jyutping": "hok6 haau6",
+    "tags": ["場所"]
+  },
+  {
+    "id": 85,
+    "category": "日常",
+    "jp": "友達",
+    "cn": "朋友",
+    "jyutping": "pang4 jau5",
+    "tags": ["人物"]
+  },
+  {
+    "id": 86,
+    "category": "日常",
+    "jp": "家族",
+    "cn": "家人",
+    "jyutping": "gaa1 jan4",
+    "tags": ["人物"]
+  },
+  {
+    "id": 87,
+    "category": "日常",
+    "jp": "天気",
+    "cn": "天氣",
+    "jyutping": "tin1 hei3",
+    "tags": ["自然"]
+  },
+  {
+    "id": 88,
+    "category": "日常",
+    "jp": "雨が降る",
+    "cn": "落雨",
+    "jyutping": "lok6 jyu5",
+    "tags": ["自然", "天気"]
+  },
+  {
+    "id": 89,
+    "category": "日常",
+    "jp": "見る",
+    "cn": "睇",
+    "jyutping": "tai2",
+    "tags": ["動詞", "感覚"]
+  },
+  {
+    "id": 90,
+    "category": "日常",
+    "jp": "聞く",
+    "cn": "聽",
+    "jyutping": "teng1",
+    "tags": ["動詞", "感覚"]
+  },
+  {
+    "id": 91,
+    "category": "日常",
+    "jp": "話す",
+    "cn": "講",
+    "jyutping": "gong2",
+    "tags": ["動詞", "会話"]
+  },
+  {
+    "id": 92,
+    "category": "日常",
+    "jp": "食べる",
+    "cn": "食",
+    "jyutping": "sik6",
+    "tags": ["動詞", "食事"]
+  },
+  {
+    "id": 93,
+    "category": "日常",
+    "jp": "飲む",
+    "cn": "飲",
+    "jyutping": "jam2",
+    "tags": ["動詞", "食事"]
+  },
+  {
+    "id": 94,
+    "category": "日常",
+    "jp": "買う",
+    "cn": "買",
+    "jyutping": "maai5",
+    "tags": ["動詞", "買い物"]
+  },
+  {
+    "id": 95,
+    "category": "日常",
+    "jp": "売る",
+    "cn": "賣",
+    "jyutping": "maai6",
+    "tags": ["動詞", "買い物"]
+  },
+  {
+    "id": 96,
+    "category": "日常",
+    "jp": "行く",
+    "cn": "去",
+    "jyutping": "heoi3",
+    "tags": ["動詞", "移動"]
+  },
+  {
+    "id": 97,
+    "category": "日常",
+    "jp": "来る",
+    "cn": "嚟",
+    "jyutping": "lai4",
+    "tags": ["動詞", "移動"]
+  },
+  {
+    "id": 98,
+    "category": "日常",
+    "jp": "寝る",
+    "cn": "瞓覺",
+    "jyutping": "fan3 gaau3",
+    "tags": ["動詞", "生活"]
+  },
+  {
+    "id": 99,
+    "category": "日常",
+    "jp": "起きる",
+    "cn": "起身",
+    "jyutping": "hei2 san1",
+    "tags": ["動詞", "生活"]
+  },
+  {
+    "id": 100,
+    "category": "日常",
+    "jp": "仕事をする",
+    "cn": "做嘢",
+    "jyutping": "zou6 je5",
+    "tags": ["動詞", "仕事"]
+  },
+  {
+    "id": 101,
+    "category": "形容詞",
+    "jp": "大きい",
+    "cn": "大",
+    "jyutping": "daai6",
+    "tags": ["サイズ"]
+  },
+  {
+    "id": 102,
+    "category": "形容詞",
+    "jp": "小さい",
+    "cn": "細",
+    "jyutping": "sai3",
+    "tags": ["サイズ"]
+  },
+  {
+    "id": 103,
+    "category": "形容詞",
+    "jp": "多い",
+    "cn": "多",
+    "jyutping": "do1",
+    "tags": ["量"]
+  },
+  {
+    "id": 104,
+    "category": "形容詞",
+    "jp": "少ない",
+    "cn": "少",
+    "jyutping": "siu2",
+    "tags": ["量"]
+  },
+  {
+    "id": 105,
+    "category": "形容詞",
+    "jp": "暑い",
+    "cn": "熱",
+    "jyutping": "jit6",
+    "tags": ["温度"]
+  },
+  {
+    "id": 106,
+    "category": "形容詞",
+    "jp": "寒い",
+    "cn": "凍",
+    "jyutping": "dung3",
+    "tags": ["温度"]
+  },
+  {
+    "id": 107,
+    "category": "形容詞",
+    "jp": "高い（値段）",
+    "cn": "貴",
+    "jyutping": "gwai3",
+    "tags": ["価格"]
+  },
+  {
+    "id": 108,
+    "category": "形容詞",
+    "jp": "安い",
+    "cn": "平",
+    "jyutping": "peng4",
+    "tags": ["価格"]
+  },
+  {
+    "id": 109,
+    "category": "形容詞",
+    "jp": "高い（背丈）",
+    "cn": "高",
+    "jyutping": "gou1",
+    "tags": ["サイズ"]
+  },
+  {
+    "id": 110,
+    "category": "形容詞",
+    "jp": "低い",
+    "cn": "矮",
+    "jyutping": "ai2",
+    "tags": ["サイズ"]
+  },
+  {
+    "id": 111,
+    "category": "形容詞",
+    "jp": "速い",
+    "cn": "快",
+    "jyutping": "faai3",
+    "tags": ["速度"]
+  },
+  {
+    "id": 112,
+    "category": "形容詞",
+    "jp": "遅い",
+    "cn": "慢",
+    "jyutping": "maan6",
+    "tags": ["速度"]
+  },
+  {
+    "id": 113,
+    "category": "形容詞",
+    "jp": "新しい",
+    "cn": "新",
+    "jyutping": "san1",
+    "tags": ["状態"]
+  },
+  {
+    "id": 114,
+    "category": "形容詞",
+    "jp": "古い",
+    "cn": "舊",
+    "jyutping": "gau6",
+    "tags": ["状態"]
+  },
+  {
+    "id": 115,
+    "category": "形容詞",
+    "jp": "良い",
+    "cn": "好",
+    "jyutping": "hou2",
+    "tags": ["評価"]
+  },
+  {
+    "id": 116,
+    "category": "形容詞",
+    "jp": "悪い",
+    "cn": "壞",
+    "jyutping": "waai6",
+    "tags": ["評価"]
+  },
+  {
+    "id": 117,
+    "category": "形容詞",
+    "jp": "難しい",
+    "cn": "難",
+    "jyutping": "naan4",
+    "tags": ["難易度"]
+  },
+  {
+    "id": 118,
+    "category": "形容詞",
+    "jp": "易しい",
+    "cn": "易",
+    "jyutping": "ji6",
+    "tags": ["難易度"]
+  },
+  {
+    "id": 119,
+    "category": "形容詞",
+    "jp": "きれい",
+    "cn": "靚",
+    "jyutping": "leng3",
+    "tags": ["見た目"]
+  },
+  {
+    "id": 120,
+    "category": "形容詞",
+    "jp": "汚い",
+    "cn": "污糟",
+    "jyutping": "wu1 zou1",
+    "tags": ["状態"]
+  },
+  {
+    "id": 121,
+    "category": "形容詞",
+    "jp": "おもしろい",
+    "cn": "有趣",
+    "jyutping": "jau5 ceoi3",
+    "tags": ["評価", "感情"]
+  },
+  {
+    "id": 122,
+    "category": "形容詞",
+    "jp": "つまらない",
+    "cn": "悶",
+    "jyutping": "mun6",
+    "tags": ["評価", "感情"]
+  },
+  {
+    "id": 123,
+    "category": "形容詞",
+    "jp": "うれしい",
+    "cn": "開心",
+    "jyutping": "hoi1 sam1",
+    "tags": ["感情"]
+  },
+  {
+    "id": 124,
+    "category": "形容詞",
+    "jp": "悲しい",
+    "cn": "傷心",
+    "jyutping": "soeng1 sam1",
+    "tags": ["感情"]
+  },
+  {
+    "id": 125,
+    "category": "形容詞",
+    "jp": "疲れた",
+    "cn": "攰",
+    "jyutping": "gui6",
+    "tags": ["状態", "感情"]
+  },
+  {
+    "id": 126,
+    "category": "形容詞",
+    "jp": "眠い",
+    "cn": "眼瞓",
+    "jyutping": "ngaan5 fan3",
+    "tags": ["状態", "感情"]
+  },
+  {
+    "id": 127,
+    "category": "形容詞",
+    "jp": "赤",
+    "cn": "紅色",
+    "jyutping": "hung4 sik1",
+    "tags": ["色"]
+  },
+  {
+    "id": 128,
+    "category": "形容詞",
+    "jp": "青",
+    "cn": "藍色",
+    "jyutping": "laam4 sik1",
+    "tags": ["色"]
+  },
+  {
+    "id": 129,
+    "category": "形容詞",
+    "jp": "黒",
+    "cn": "黑色",
+    "jyutping": "hak1 sik1",
+    "tags": ["色"]
+  },
+  {
+    "id": 130,
+    "category": "形容詞",
+    "jp": "白",
+    "cn": "白色",
+    "jyutping": "baak6 sik1",
+    "tags": ["色"]
+  }
+]
