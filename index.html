@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>広東語クイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="top-right-controls">
+            <button id="home-btn">&#127968;</button>
+            <button id="audio-toggle-btn">&#128266;</button>
+            <button id="rate-toggle-btn">&#128034;</button>
+        </div>
+        <!-- スタート画面 -->
+        <div id="start-screen">
+            <h1>広東語クイズ</h1>
+            <h2>カテゴリを選択してください</h2>
+            <div id="category-selection">
+                <!-- カテゴリボタンはJSで生成 -->
+            </div>
+        </div>
+
+        <!-- クイズ画面 -->
+        <div id="quiz-screen" class="hidden">
+            <div id="score-container">
+                <p>スコア: <span id="score">0</span> / <span id="total-questions">0</span></p>
+            </div>
+            <div id="question-container">
+                <p id="question"></p>
+            </div>
+            <div id="options-container">
+                <!-- 選択肢ボタンはJSで生成 -->
+            </div>
+            <div id="feedback-container">
+                <p id="feedback"></p>
+            </div>
+            <div class="action-buttons-container">
+                <button id="action-btn" class="hidden"></button>
+            </div>
+        </div>
+
+        <!-- 結果画面 -->
+        <div id="result-screen" class="hidden">
+            <h2>結果</h2>
+            <p id="final-score"></p>
+            <button id="restart-btn">もう一度挑戦</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
