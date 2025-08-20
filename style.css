@@ -1,0 +1,340 @@
+/* 基本スタイル */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+#app-container {
+    position: relative; /* For absolute positioning of children */
+    width: 100%;
+    max-width: 500px;
+    padding-top: 80px; /* Increased padding-top */
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#top-right-controls {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+#audio-toggle-btn, #home-btn, #rate-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+    line-height: 1;
+    color: #6c757d;
+    transition: transform 0.2s;
+}
+
+#audio-toggle-btn:hover, #home-btn:hover, #rate-toggle-btn:hover {
+    transform: scale(1.15);
+}
+
+/* 画面共通 */
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #005a8d;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* クイズ画面 */
+#score-container {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin: 30px 0;
+}
+
+#question {
+    font-size: 24px; /* 仕様書通り */
+    font-weight: bold;
+    min-height: 60px; /* 高さを確保してレイアウト崩れを防ぐ */
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-btn {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #fff;
+    color: #007bff;
+    border: 3px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    min-height: 70px;
+}
+
+.option-btn .jyutping {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.option-btn .char {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.option-btn:hover:not(:disabled) {
+    background-color: #e7f3ff;
+}
+
+.option-btn.selected {
+    border-color: #004085;
+    background-color: #dbeaff;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.option-btn.correct {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.option-btn.wrong {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.option-btn.correct .jyutping,
+.option-btn.correct .char,
+.option-btn.wrong .jyutping,
+.option-btn.wrong .char {
+    color: #fff;
+}
+
+#feedback-container {
+    margin-top: 20px;
+    min-height: 45px; /* 高さを確保 */
+}
+
+#feedback {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#feedback.correct {
+    color: #28a745;
+}
+
+#feedback.wrong {
+    color: #dc3545;
+}
+
+.action-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    min-height: 68px; /* ボタンの高さ + マージンを確保 */
+}
+
+#action-btn {
+    background-color: #007bff; /* 「こたえあわせ」の時の色 */
+    min-width: 180px;
+    transition: background-color 0.2s;
+    margin-top: 0; /* margin相殺を防ぐ */
+}
+
+#action-btn.is-next {
+    background-color: #6c757d; /* 「次へ」の時の色 */
+}
+
+#action-btn:hover {
+    filter: brightness(90%);
+}
+
+/* 結果画面 */
+#final-score {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+/* カテゴリ選択画面 */
+#start-screen h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#category-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.category-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0; /* buttonのデフォルトmarginをリセット */
+}
+
+.category-btn:hover {
+    background-color: #138496;
+}
+
+#start-screen {
+    margin-top: 40px;
+}
+
+#quiz-screen {
+    margin-top: 40px;
+}
+
+/* --- スマートフォン向けのレスポンシブ対応 --- */
+@media (max-width: 600px) {
+    body {
+        /* iOSでのフォントサイズ自動調整を防ぐ */
+        -webkit-text-size-adjust: 100%;
+    }
+
+    #app-container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.0rem;
+        margin-bottom: 15px;
+    }
+
+    #start-screen h2 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    #question-container {
+        margin: 15px 0;
+    }
+
+    #question {
+        font-size: 20px;
+        min-height: 50px;
+    }
+
+    #options-container {
+        gap: 10px;
+    }
+
+    .option-btn {
+        min-height: 60px;
+        padding: 8px 5px;
+    }
+
+    .option-btn .char {
+        font-size: 1.5rem;
+    }
+
+    .option-btn .jyutping {
+        font-size: 0.8rem;
+    }
+
+    #feedback-container {
+        margin-top: 15px;
+        min-height: 35px;
+    }
+
+    #feedback {
+        font-size: 1.2rem;
+    }
+
+    .action-buttons-container {
+        min-height: 55px;
+        gap: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 10px 18px;
+        font-size: 1.1rem;
+    }
+
+    #action-btn {
+        margin-top: 0;
+    }
+
+    .category-btn {
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+
+    #top-right-controls {
+        top: 5px;
+        right: 5px;
+    }
+
+    #audio-toggle-btn, #home-btn, #rate-toggle-btn {
+        font-size: 1.5rem;
+    }
+}
