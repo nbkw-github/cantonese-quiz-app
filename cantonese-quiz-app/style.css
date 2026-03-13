@@ -1,0 +1,452 @@
+/* 基本スタイル */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #000;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+#top-right-controls {
+    display: flex;
+    gap: 8px;
+}
+
+#audio-toggle-btn, #home-btn, #rate-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.8);
+    transition: transform 0.2s, color 0.2s;
+}
+
+#audio-toggle-btn:hover, #home-btn:hover, #rate-toggle-btn:hover {
+    transform: scale(1.15);
+    color: #fff;
+}
+
+/* 画面共通 */
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#start-screen h1 {
+    font-size: 2.2rem;
+    border-radius: 0.5em;
+    padding: 10px;
+    /* Green board glow from example */
+    box-shadow: -1px -1px rgb(129, 250, 133), 1px -1px rgb(129, 250, 133),
+        1px 1px rgb(129, 250, 133), -1px 1px rgb(129, 250, 133),
+        0 0 0.1em rgb(129, 250, 133), 0 0 0.1em rgb(129, 250, 133) inset,
+        0 0 0.5em rgb(129, 250, 133), 0 0 0.5em rgb(129, 250, 133) inset,
+        0 0 1em rgb(129, 250, 133), 0 0 1em rgb(129, 250, 133);
+    /* Red text glow from example */
+    color: rgb(218, 74, 98);
+    text-shadow: 0 0 0.1em rgb(218, 74, 98), 0 0 0.1em rgb(218, 74, 98),
+        0 0 0.1em rgb(218, 74, 98), 0 0 0.5em rgb(218, 74, 98),
+        0 0 1em rgb(218, 74, 98);
+    transition: text-shadow 1s;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+    margin-top: 20px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.quiz-type-btn {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* クイズ画面 */
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#score-container {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+#score-container p {
+    margin: 0;
+}
+
+#question-container {
+    margin: 30px 0;
+}
+
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 60px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-btn {
+    width: 100%;
+    padding: 12px 24px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    min-height: 70px;
+    margin-top: 0;
+    transition: background-color 0.2s, box-shadow 0.15s, transform 0.1s;
+}
+
+.option-btn .jyutping {
+    font-size: 0.9rem;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.option-btn .char {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.option-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.option-btn.selected {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: #fff;
+    box-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #00bfff;
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.option-btn.correct:disabled {
+    opacity: 1;
+}
+
+.option-btn.correct {
+    background: rgba(40, 167, 69, 0.7);
+    border-color: #6effa8;
+    color: #fff;
+    box-shadow:
+        0 0 5px #fff,
+        0 0 10px #6effa8,
+        0 0 15px #28a745;
+}
+
+.option-btn.wrong {
+    background: rgba(220, 53, 69, 0.7);
+    border-color: rgba(220, 53, 69, 1);
+    color: #fff;
+    box-shadow: none;
+}
+
+#feedback-container {
+    margin-top: 10px;
+    min-height: 80px;
+}
+
+#feedback {
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+#feedback p {
+    margin: 0;
+}
+
+#feedback.correct {
+    color: #c8ffda;
+}
+
+#feedback.wrong {
+    color: #ffc8c8;
+}
+
+.action-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    min-height: 50px;
+}
+
+#action-btn {
+    min-width: 180px;
+    margin-top: 0;
+    background: rgba(88, 101, 242, 0.7);
+    border-color: rgba(88, 101, 242, 1);
+    height: 40px;
+    padding: 0 24px;
+    line-height: 40px;
+}
+
+#action-btn.is-next {
+    background: rgba(40,167, 69, 0.7);
+    border-color: rgba(40, 167, 69, 1);
+}
+
+#action-btn:hover {
+    filter: brightness(110%);
+}
+
+/* 結果画面 */
+#final-score {
+    font-size: 1.3rem;
+    margin: 30px 0;
+}
+
+#result-screen h2 {
+    font-size: 1.7rem;
+}
+
+/* カテゴリ選択画面 */
+#start-screen h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+}
+
+#category-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.category-btn {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#back-to-type-selection-btn {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Listening Build Quiz Styles */
+#listening-audio-container {
+    margin: 10px 0;
+}
+
+#play-audio-btn {
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#listening-answer-area-container {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    height: 140px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+#listening-answer-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    min-height: 76px;
+}
+
+#listening-word-bank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    height: 140px;
+    align-content: flex-start;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.word-tile {
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.1s;
+    user-select: none;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.word-tile:active {
+    transform: scale(0.95);
+}
+
+#listening-answer-area .word-tile {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.word-tile.placeholder {
+    background: transparent;
+    border-style: dashed;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+.word-tile.placeholder-slot {
+    background: transparent;
+    border-color: transparent;
+}
+
+.feedback-original-sentence {
+    font-size: 1.1rem;
+    color: #c8d3e8;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+    #app-container {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 2.0rem;
+    }
+
+    #start-screen h1 {
+        font-size: 1.7rem;
+		margin: 10px 0;
+    }
+
+    #start-screen h2 {
+        font-size: 1.2rem;
+        margin: 0 0 15px;
+    }
+
+    #question-container {
+        margin: 30px 0 8px;
+    }
+
+    #question {
+        font-size: 18px;
+        min-height: 40px;
+    }
+
+    #options-container {
+        gap: 20px;
+    }
+
+    .option-btn {
+        padding: 8px 24px;
+    }
+
+    .option-btn .char {
+        font-size: 1.3rem;
+    }
+
+    #feedback-container {
+        min-height: 60px;
+    }
+
+    #feedback {
+        font-size: 1.0rem;
+    }
+
+    button {
+        padding: 10px 18px;
+        font-size: 1.1rem;
+    }
+}
